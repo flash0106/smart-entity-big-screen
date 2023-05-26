@@ -1,0 +1,165 @@
+@import "./system-color.less";
+
+body {
+  color: @max-black;
+  font-size: 14px;
+  margin: 0;
+  padding: 0 !important;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  font-family: "PingFang SC", "Helvetica Neue", "SanFrancisco Pro",
+    "Microsoft YaHei", WenQuanYiMicroHei, sans-serif !important;
+}
+
+#app{
+  width: 100vw;
+  height: 100vh;
+  &:has(.login-page){
+    background: linear-gradient(to right,#060F5A,#030229);
+  }
+  overflow: hidden;
+  background: #11151b;;
+}
+
+button,
+input,
+select,
+pre,
+textarea {
+  font-family: "PingFang SC", "Helvetica Neue", "SanFrancisco Pro",
+    "Microsoft YaHei", WenQuanYiMicroHei, sans-serif !important;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: @font-main;
+}
+
+p {
+  margin: 0;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+textarea {
+  outline: none;
+
+  &:focus {
+    border-color: @main-color;
+  }
+
+  resize: none;
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border-color: #e0e2e2;
+  font-size: 14px;
+  color: #606266;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.45);
+}
+
+input {
+  &::-webkit-input-placeholder {
+    color: @placeholder-color;
+  }
+
+  input {
+    user-select: none;
+
+    &::selection {
+      background: transparent;
+    }
+  }
+
+  &[readonly],
+  &[aria-autocomplete] {
+    user-select: none;
+
+    &::selection {
+      background: transparent;
+    }
+  }
+}
+
+// fade-transform-x
+.fade-transform-x-leave-active,
+.fade-transform-x-enter-active {
+  transition: all .25s;
+}
+
+.fade-transform-x-enter-from {
+  opacity: 0;
+  transform: translateX(-30px);
+}
+
+.fade-transform-x-leave-to {
+  opacity: 0;
+  transform: translateX(30px);
+}
+
+// fade-transform-y
+.fade-transform-y-leave-active,
+.fade-transform-y-enter-active {
+  transition: all .25s;
+}
+
+.fade-transform-y-enter-from {
+  opacity: 0;
+  transform: translateY(-30px);
+}
+
+.fade-transform-y-leave-to {
+  opacity: 0;
+  transform: translateY(-30px);
+}
+
+// fade-transform-xr
+.fade-transform-xr-leave-active,
+.fade-transform-xr-enter-active {
+  transition: all .25s;
+}
+
+.fade-transform-xr-enter-from {
+  opacity: 0;
+  transform: translateX(30px);
+}
+
+.fade-transform-xr-leave-to {
+  opacity: 0;
+  transform: translateX(30px);
+}
+
+.tox-promotion {
+  // 去除富文本额外显示内容
+  display: none;
+}
+
+.tox-tinymce-aux {
+  z-index: 6666 !important;
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="18px" viewBox="0 0 14 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 3</title>
+    <g id="设计页面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="登录页1" transform="translate(-764.000000, -359.000000)">
+            <g id="编组-6" transform="translate(280.000000, 193.000000)">
+                <g id="编组-7" transform="translate(470.000000, 70.000000)">
+                    <g id="编组" transform="translate(0.000000, 84.000000)">
+                        <g id="编组-3" transform="translate(14.000000, 12.000000)">
+                            <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="14" height="18"></rect>
+                            <g id="编组-17" transform="translate(0.516671, 1.494192)" stroke="#141617">
+                                <circle id="椭圆形" cx="6.40301843" cy="3.2574202" r="3.2574202"></circle>
+                                <path d="M2.05296383,14.6867611 C0.953823421,14.6056763 0.28412606,13.9835021 0.0438717477,12.8202387 C-0.316509721,11.0753435 1.58032112,8.190223 4.37366782,8.190223 C4.65768981,8.190223 8.30896753,8.190223 8.59298952,8.190223 C11.3863362,8.190223 13.2831671,11.0753435 12.9227856,12.8202387 C12.6825313,13.9835021 12.0128339,14.6056763 10.9136935,14.6867611 L2.05296383,14.6867611 Z" id="路径-8"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

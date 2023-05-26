@@ -1,0 +1,92 @@
+@import "./system-color.less";
+
+@font-face {
+  font-family: 'ding';
+  src:url("../../assets/fonts/D-DINExp-Bold.otf");
+}
+
+@font-face {
+  font-family: 'special';
+  src: url("../../assets/fonts/YouSheBiaoTiHei.ttf");
+}
+
+/* 弹性布局 */
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-start-wrap {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flex-center-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn-style {
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.85;
+  }
+}
+
+.can-click {
+  cursor: pointer;
+  color: @main-color;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &--u {
+    cursor: pointer;
+    color: @main-color;
+    text-decoration: underline;
+  }
+}
+
+.ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+
+  &--2 {
+    .mutilEllipsis(2);
+  }
+}
+
+.mutilEllipsis(@n) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: @n;
+  -webkit-box-orient: vertical;
+}

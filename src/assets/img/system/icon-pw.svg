@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="18px" viewBox="0 0 14 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 19</title>
+    <g id="设计页面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="登录页1" transform="translate(-764.000000, -417.000000)">
+            <g id="编组-6" transform="translate(280.000000, 193.000000)">
+                <g id="编组-7" transform="translate(470.000000, 70.000000)">
+                    <g id="编组" transform="translate(0.000000, 84.000000)">
+                        <g id="编组-18" transform="translate(0.000000, 58.000000)">
+                            <g id="编组-19" transform="translate(14.000000, 12.000000)">
+                                <rect id="矩形备份" fill="#D8D8D8" opacity="0" x="0" y="0" width="14" height="18"></rect>
+                                <g id="编组-16" transform="translate(0.577629, 1.432593)" stroke="#141617">
+                                    <rect id="矩形" x="0" y="5.33067456" width="12.8447421" height="9.3422521" rx="2"></rect>
+                                    <path d="M6.42237104,0 C8.30530874,-3.45890044e-16 9.83173134,1.5264226 9.83173134,3.4093603 L9.83173134,5.33067456 L9.83173134,5.33067456 L3.01301074,5.33067456 L3.01301074,3.4093603 C3.01301074,1.5264226 4.53943334,3.45890044e-16 6.42237104,0 Z" id="矩形备份-3"></path>
+                                    <line x1="6.42237014" y1="8.51998115" x2="6.42237014" y2="11.3152272" id="路径-4" stroke-linecap="round"></line>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
