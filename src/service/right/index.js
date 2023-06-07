@@ -1,5 +1,5 @@
 import dao from "../BaseDao";
-const baseURL = "/student_employ";
+const baseURL = "/right";
 export default {
   getSatisfactionData(data) {
     return dao.post(baseURL + "/get_satisfaction", data)

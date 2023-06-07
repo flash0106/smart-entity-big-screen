@@ -30,10 +30,11 @@
 </template>
 
 <script setup>
-import { ref, reactive, onMounted } from "vue";
+import { ref, reactive, onMounted, inject } from "vue";
 import { useTime } from "../hooks/useTime.js";
 import AddUserDialog from "./AddUserDialog.vue";
 import { useRouter } from "vue-router";
+const $open = inject("$open");
 const $router = useRouter();
 const props = defineProps({
   title: String,
@@ -57,6 +58,7 @@ const openSetting = () => {
   dialogVisible.value = true;
 };
 const doLogout = () => {
+  $open("退出登录成功", "success");
   $router.push({ path: "/login" });
 };
 </script>
